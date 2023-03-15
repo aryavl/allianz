@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    border-bottom: 1px solid #ccc;
+    
+}
+.flexx{
+    display: flex;
+    justify-content: space-between;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    padding:1rem 0;
+}
+nav img{
+    width: 100px;
+}
+.link{
+    margin-right:15px;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+.en{
+    margin-right:10px;
+border-right: 1px solid #ccc;
+padding-right:5px ; 
+
+}
+.lower-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.lower-nav ul{
+    list-style: none;
+    display: flex;
+
+}
+.lower-nav ul li a{
+    color: #000;
+}
+.btn-search{
+    border: none;
+    color: #003781;
+    background-color: #fff;
+    font-weight: bold;
+}
+.btn-search:hover{
+    color:blue;
+}
+.bg-img{
+    width: 100%;
+    height: 82vh;
+    background-image: url("./images/allianz-integrated-commercial-press-release-stage-banner.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.section1{
+    position: relative;
+}
+.box{
+    background-color: #fff;
+    width: 50%;
+    height: 35%;
+    padding: 30px;
+    position: absolute;
+    top: 60%;
+    left: 8%;
+}
+.box p{
+    padding-bottom: 40px;
+    font-size: 28px;
+    color:#003781;
+}
+.btn-read{
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+.section2{
+    width: 100%;
+    margin: 2rem 0;
+    /* margin: 2rem auto; */
+    padding: 6rem 10rem;
+    background-color: #E6F4F6;
+    text-align: center;
+    color: #414141;
+}
+.section2 .para1{
+     font-size: 26px;
+     padding-bottom: 1rem;
+}
+.para2{
+    line-height: 2rem;
+    font-size: 20px;
+}
+.para3{
+    padding-top: 1.5rem;
+}
+.section3, .section4,.section5,.section6{
+    width: 80%;
+    margin: 0 auto;
+}
+.section3 h4{
+    text-align: center;
+    color: #414141;
+    font-size: 28px;
+    padding: 2rem 0;
+
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+.section3-div{
+    height: 63vh;
+    padding: 0 1rem;
+    background-color: #efeded;
+    /* border: 1px solid red; */
+    /* margin:20px 0 ; */
+    padding: 2rem ;
+}
+.section3-para1{
+    /* margin-top: -150px; */
+    color: #414141;
+    margin-bottom: 1rem;
+}
+.section3-para2{
+    color: #414141;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+
+}
+.section3-para3{
+    color: #414141;
+    margin-bottom: 2rem;
+
+}
+.section4-div{
+    height: 80vh;
+    padding: 0 1rem;
+    background-color: #efeded;
+    /* border: 1px solid red; */
+    /* margin:20px 0 ; */
+    padding: 2rem ;
+}
+.section4 img{
+height: 80vh;
+}
+.flex1{
+    flex: 1;
+}
+.section5{
+    padding: 5rem 0;
+}
+.divleft{
+    padding-right:5rem;
+    padding-top: 5rem;
+}
+.s5{
+    line-height: 1.5rem;
+}
+.border-box{
+    height: 30%;
+    width: 90vw;
+    border: 1px solid #000;
+    border-radius: 15px;
+    padding: 10px;
+}
+.podcast-img{
+    width: 250px;
+    height: 200px;
+    border-radius: 15px;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8rem;
+}
+.podcast-btn{
+    padding: 1rem 3rem;
+    border: none;
+    background-color: #212c65;
+    color: #fff;
+    font-weight: bold;
+}
+.podcast-link{
+    text-decoration: none;
+    font-weight: bold;
+    color: #212c65;
+}
+.podcast-right{
+    padding-left: 2rem;
+}
+.section6{
+    margin-bottom: 5rem;
+}
